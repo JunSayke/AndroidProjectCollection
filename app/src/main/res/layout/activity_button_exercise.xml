@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonExercise">
+
+    <LinearLayout
+        android:id="@+id/Screen"
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <Button
+            android:id="@+id/btnButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open New Activity" />
+
+        <Button
+            android:id="@+id/btnButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast" />
+
+        <Button
+            android:id="@+id/btnButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disappear" />
+
+        <Button
+            android:id="@+id/btnButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teacher LinkedIn" />
+
+        <Button
+            android:id="@+id/btnButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Button Background" />
+
+        <Button
+            android:id="@+id/btnButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Background Color" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
